@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/editTagFragment"
+        android:icon="@drawable/hashtag"
+        android:title="Tags"
+        app:showAsAction="withText" />
+    <item
+        android:id="@+id/trendingFragment"
+        android:icon="@drawable/popular"
+        android:title="Trending" />
+    <item
+        android:id="@+id/exploreFragment"
+        android:icon="@drawable/explore24px"
+        android:title="Explore" />
+    <item
+        android:id="@+id/savedFragment"
+        android:icon="@drawable/favorite"
+        android:title="Saved" />
+</menu>
